@@ -1,3 +1,5 @@
+@import url('https://fonts.googleapis.com/css2?family=Arvo:wght@400;700&display=swap');
+
 :root {
     --white: hsl(0, 0%, 100%);
     --light-gray: hsl(212, 45%, 89%);
@@ -6,6 +8,43 @@
 }
 
 body {
-    background-color: var(--dark-blue);
+    background-color: #C5E5E7;
+    font-family: 'Arvo', serif;
+}
 
+input{
+    background-color: #013e41;
+    color: #26C1AF;
+    font-weight: 700;
+    text-align: end;
+    border: none;
+    border-radius: 8px; 
+    padding: 10px 15px;
+    outline: none;
+}
+input::placeholder {
+    font-weight: 400;
+}
+
+button {
+    width: 25%;
+    background-color: #013e41;
+    color: #26C1AF;
+    font-weight: 700;
+    text-align: center;
+    border: none;
+    border-radius: 8px; 
+    padding: 10px 15px;
+    outline: none;
+}
+
+button:focus, button:hover{
+    background-color: #26C1AF;
+    color: #013e41;
+    outline: none;
+}
+
+.calc-header {
+    font-weight: 700;
+    letter-spacing: 1px;
 }
