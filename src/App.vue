@@ -1,9 +1,9 @@
 <script setup>
-
+  import page from './components/page.vue'
 </script>
 
 <template>
-  <h1>teste</h1>
+  <page />
 </template>
 
 <style scoped>
