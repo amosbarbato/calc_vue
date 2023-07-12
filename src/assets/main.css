@@ -1,20 +1,20 @@
 @import url('https://fonts.googleapis.com/css2?family=Arvo:wght@400;700&display=swap');
 
 :root {
-    --white: hsl(0, 0%, 100%);
-    --light-gray: hsl(212, 45%, 89%);
-    --grayish-blue: hsl(220, 15%, 55%);
-    --dark-blue: hsl(218, 44%, 22%);
+    --dark-primary: #004749;
+    --primary: #013e41;
+    --secondary: #26c1af;
+    --bg-main: #c5e5e7;
 }
 
 body {
-    background-color: #C5E5E7;
+    background-color: var(--bg-main);
     font-family: 'Arvo', serif;
 }
 
 input{
-    background-color: #013e41;
-    color: #26C1AF;
+    background-color: var(--primary);
+    color: var(--secondary);
     font-weight: 700;
     text-align: end;
     border: none;
@@ -28,8 +28,8 @@ input::placeholder {
 
 button {
     width: 25%;
-    background-color: #013e41;
-    color: #26C1AF;
+    background-color: var(--primary);
+    color: var(--secondary);
     font-weight: 700;
     text-align: center;
     border: none;
@@ -38,9 +38,9 @@ button {
     outline: none;
 }
 
-button:focus, button:hover{
-    background-color: #26C1AF;
-    color: #013e41;
+button:focus, button:hover, button:active{
+    background-color: var(--secondary);
+    color: var(--primary);
     outline: none;
 }
 
